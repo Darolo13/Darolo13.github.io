@@ -109,3 +109,51 @@ section {
 }
 /* end of hero */
 
+/* work section */
+.work-s {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.work {
+    margin: 20px;
+    background: var(--secondary-color);
+    color: var(--tertiary-color);
+    flex: 1;
+}
+
+.work-s img {
+    width: 100%;
+}
+
+.work-desc {
+    padding: 25px;
+    width: 100%;
+    line-height: 1.3;
+}
+
+.work-desc h3 {
+    font-size: 28px;
+}
+
+.work-desc h4 {
+    font-size: lighter;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.work-desc p {
+    font-size: 17px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
