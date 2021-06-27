@@ -409,6 +409,24 @@ footer div {
     line-height: 1.5;
 }
 
+.section-title {
+    font-size: 48px;
+    color: var(--secondary-color);
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+  }
+
+  .primary-border {
+    border-color: var(--primary-color);
+  }
+  
+  .secondary-border {
+    border-color: var(--tertiary-color);
+  }
+
 /* end of footer style */
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
@@ -452,9 +470,6 @@ footer div {
        width: 80%;
    }
 
-   .contact-info iframe {
-       flex: 1 100%;
-   }
 }
 
 .rm-container img {
@@ -501,5 +516,9 @@ footer div {
     .rm-container img{
        max-width: 10%;
         height: auto;
+    }
+
+    .work-wrapper {
+        flex: 0 70%;
     }
 }
