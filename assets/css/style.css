@@ -427,6 +427,11 @@ footer div {
     border-color: var(--tertiary-color);
   }
 
+  .hero-subtitle {
+      align-self: center;
+      padding-left: 30px;
+  }
+
 /* end of footer style */
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
