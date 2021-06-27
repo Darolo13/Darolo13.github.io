@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>David Romero's Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
@@ -11,116 +13,210 @@
 </head>
 
 <body>
-    
+
     <!-- navigation -->
-    <header>     
+    <header>
         <h1>
             <a href="/"> Darolo13 </a>
         </h1>
         <nav>
-             <!-- unordered list elements -->
-             <ul>
-                 <!-- list item element -->
-                 <li>  
-                     <a href="#about-me">About Me</a>
-                 </li>
-                 <li>
-                     <a href="#my-work">Work</a>
-                 </li>
-                 <li>
-                     <a href="#contact-me">Contact Me</a>
-                 </li>
-                 <li>
-                     <a href="#Resume">Resume</a>
-                 </li>
-             </ul>
+            <!-- unordered list elements -->
+            <ul>
+                <!-- list item element -->
+                <li>
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#my-work">Work</a>
+                </li>
+                <li>
+                    <a href="#contact-me">Contact Me</a>
+                </li>
+                <li>
+                    <a href="#Resume">Resume</a>
+                </li>
+            </ul>
         </nav>
     </header>
 
-  <!-- hero -->
-  <section class="hero">
-      <div class="hero-cta"> 
-          <h2> Hello I'm David Romero </h2>
-          <p> I'm a web developer and a passionate for technology </p>
-      </div>
-  </section>
-  <!-- end of hero -->
-
-  <!-- work section -->
-  <section id="my-work">
-      <div class="flex-row">
-        <h2 class="section-title primary-border">Work</h2>
-      </div>
-
-      <div class="work-s">
-          <!-- first work -->
-      <article class="work">
-          <img src="./assets/images/run-buddy.png" alt="run buddy website snapshot">
-          <div class="work-desc">
-              <h3 class="work-name"> Run Buddy </h3>
-              <h4 class="prog-lang">HTML / CSS</h4>
-              <P>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab rem itaque eos doloremque, nulla aut asperiores adipisci consequuntur reiciendis beatae aliquam tempora eum ex officia ipsum ratione? Saepe, consequatur corporis?
-              </P>
-          </div>
-      </article>  
-      
-
-      <!-- second work -->
-      <article class="work">
-          <img src="./assets/images/placeholder.png" alt="placeholder image">
-          <div class="work-desc">
-              <h3 class="work-name"> Coming Soon! </h3>
-              <h4 class="prog-lang">HTML / CSS</h4>
-              <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, quos. Neque laboriosam ipsam eos laudantium reprehenderit vel blanditiis ab, harum beatae quasi cumque tenetur. Nam, aliquid a. Ea, commodi. Excepturi.
-              </p>
-          </div>
-      </article>
-
-      <!-- third work -->
-      <article class="work">
-        <img src="./assets/images/placeholder.png" alt="placeholder image">
-        <div class="work-desc">
-            <h3 class="work-name"> Coming Soon! </h3>
-            <h4 class="prog-lang">HTML / CSS</h4>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, quos. Neque laboriosam ipsam eos laudantium reprehenderit vel blanditiis ab, harum beatae quasi cumque tenetur. Nam, aliquid a. Ea, commodi. Excepturi.
-            </p>
+    <!-- hero -->
+    <section class="hero hero-dark">
+        <div class="hero-inner">
+            <div class="hero-content text-center">
+                <h1 class="hero-title display-3"> Hello, I'm David</h1>
+                
+                
+                
+            </div>
         </div>
-      </article>
+    </section>
+    <!-- end of hero -->
 
-        <!-- fourth work -->
-        <article class="work">
-            <img src="./assets/images/placeholder.png" alt="placeholder image">
-            <div class="work-desc">
-                <h3 class="work-name"> Coming Soon! </h3>
-                <h4 class="prog-lang">HTML / CSS</h4>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, quos. Neque laboriosam ipsam eos laudantium reprehenderit vel blanditiis ab, harum beatae quasi cumque tenetur. Nam, aliquid a. Ea, commodi. Excepturi.
-                </p>
-            </div>
-        </article>
+    <!-- about me section -->
+ <section id="about-me">
+     <h2 class="section-title primary-border">About Me</h2>
+     <div class="about-me_wrapper">
+         <img src="./assets/images/avatar.jpg" alt="Avatar">
+        <h2 class="hero-subtitle">I'm a full stack web developer and a passionate for technology.</h2>
+     </div>
+ </section>
 
-        <!-- fifth work -->
-        <article class="work">
-            <img src="./assets/images/placeholder.png" alt="placeholder image">
-            <div class="work-desc">
-                <h3 class="work-name"> Coming Soon! </h3>
-                <h4 class="prog-lang">HTML / CSS</h4>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, quos. Neque laboriosam ipsam eos laudantium reprehenderit vel blanditiis ab, harum beatae quasi cumque tenetur. Nam, aliquid a. Ea, commodi. Excepturi.
-                </p>
-            </div>
-        </article>
-    </div>
-  </section>
+    <!-- work section -->
+    <main id="my-work">
+        
+        <h2 class="section-title primary-border">Work</h2>
+        <p>Below there is some of my projects: </p>
+        
+        <div class="work-wrapper">    
+            <!-- first work -->
+                <article id="run">
+                    <a href="https://darolo13.github.io/run-buddy/">
+                        <img src="./assets/images/run-buddy.png" alt="run buddy website snapshot">
+                    </a>
+                    <div class="work-desc">
+                        <h3> Run Buddy </h3>
+                        <h4>HTML / CSS</h4>
+                        <P>
+                            A website that offers fitness training services.
+                        </P>
+                    </div>
+                </article>
+                
+                
+                <!-- second work -->
+                <article>
+                    <img src="./assets/images/placeholder.png" alt="placeholder image">
+                    <div class="work-desc">
+                        <h3> Coming Soon! </h3>
+                        <h4>HTML / CSS</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, quos. Neque laboriosam ipsam
+                            eos laudantium reprehenderit vel blanditiis ab, harum beatae quasi cumque tenetur. Nam, aliquid
+                            a. Ea, commodi. Excepturi.
+                        </p>
+                    </div>
+                </article>
+                
+                <!-- third work -->
+                <article>
+                    <img src="./assets/images/placeholder.png" alt="placeholder image">
+                    <div class="work-desc">
+                        <h3> Coming Soon! </h3>
+                        <h4>HTML / CSS</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, quos. Neque laboriosam ipsam
+                            eos laudantium reprehenderit vel blanditiis ab, harum beatae quasi cumque tenetur. Nam, aliquid
+                            a. Ea, commodi. Excepturi.
+                        </p>
+                    </div>
+                </article>
+                
+                <!-- fourth work -->
+                <article>
+                    <img src="./assets/images/placeholder.png" alt="placeholder image">
+                    <div class="work-desc">
+                        <h3> Coming Soon! </h3>
+                        <h4>HTML / CSS</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, quos. Neque laboriosam ipsam
+                        eos laudantium reprehenderit vel blanditiis ab, harum beatae quasi cumque tenetur. Nam, aliquid
+                        a. Ea, commodi. Excepturi.
+                    </p>
+                </div>
+            </article>
+            
+            <!-- fifth work -->
+            <article>
+                <img src="./assets/images/placeholder.png" alt="placeholder image">
+                <div class="work-desc">
+                    <h3> Coming Soon! </h3>
+                    <h4>HTML / CSS</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, quos. Neque laboriosam ipsam
+                        eos laudantium reprehenderit vel blanditiis ab, harum beatae quasi cumque tenetur. Nam, aliquid
+                        a. Ea, commodi. Excepturi.
+                    </p>
+                </div>
+            </article>
+        </div>
+</main>
 
-<!-- footer -->
-<footer>
+<!-- contact me section -->
 
-</footer>
+<section id="contact-me" class="contact-cta ">
 
+    <div class="contact-form">
+        <h2 class="section-title secondary-border">Contact Me</h2>
+        <form>
+          <label for="contact-name">Your Name</label>
+          <input type="text" id="contact-name" placeholder="Your Name" />
+    
+          <label for="contact-message">Message</label>
+          <textarea id="contact-message" placeholder="Message"></textarea>
+    
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    
+    <div class="content">
+        <div class="contact-inner row">
+            <p class="hero-extra">
+                You can reach me and check my projects and contributions on my social media accounts:
+            </p>
+            
+        </div>
+
+        <div class="sm-container">
+            
+            <ul class="a-list a-list_light">
+                <li class="a-list_item">
+                    <a href="https://github.com/Darolo13" class="nav-link" rel="noopener">
+                        <img class="a-list_img" src="./assets/icons/png/github.png" alt="github icon">
+                    </a>
+                </li>
+                
+                <li class="a-list_item">
+                    <a href="https://www.linkedin.com/in/darolo13/" class="nav-link" rel="noopener">
+                        <img class="a-list_img" src="./assets/icons/png/linkedin.png" alt="">
+                    </a>
+                </li>
+                
+                <li class="a-list_item">
+                    <a href="https://twitter.com" class="nav-link" rel="noopener">
+                        <img class="a-list_img" src="./assets/icons/png/twitter.png" alt="">
+                    </a>
+                </li>
+            </ul>
+         </div>
+       </div>  
+</section>
+
+<!-- resume section -->
+<section id="Resume">
+        <div class="rm-container">
+            <ul class="rm-list">
+                <li class="rm-list_item">
+                <h2 class="section-title primary-border"> Download Resume </h2>
+                <a href="./assets/resume/David Romero.pdf">
+                <img src="./assets/icons/svg/coding-2.svg" alt="pdf image">
+                </li>
+            </ul>
+        </div>
+
+    </a> 
+</section>
+
+
+
+    <!-- footer -->
+    <footer>
+        <div>
+            <br>
+            <h4>Made with ❤️ by David Romero</h4>
+            <a href='https://www.freepik.com/free-photos-vectors/people'>People vector created by felicities - www.freepik.com</a>
+        </div>
+    </footer>
+    
 </body>
 
 </html>
