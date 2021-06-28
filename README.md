@@ -1,16 +1,50 @@
-### Hi there 👋
+# Project Name
+> Portfolio Webpage where I'll display the projects I've been working on.
+> Live demo [_here_](https://Darolo13.github.io). 
 
-<!--
-**Darolo13/Darolo13** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Table of Contents
+* [Technologies Used](#technologies-used)
+* [Features](#features)
+* [Screenshots](#screenshots)
+* [Project Status](#project-status)
+* [Room for Improvement](#room-for-improvement)
 
-Here are some ideas to get you started:
+## Technologies Used
+- Tech 1 - HTML
+- Tech 2 - CSS
+- Tech 3 - SCSS
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+## Features
+Ready Features:
+- Navigation links
+- Icon & Img links
+- PDF download
+
+
+## Screenshots
+### About Me section:
+![about me section](./assets/screenshots/about-me.png)
+
+### Work section:
+![work section](./assets/screenshots/work.png)
+
+![work section](./assets/screenshots/work2.png)
+
+### Contact Me & Resume sections:
+![contact section](./assets/screenshots/contact-me.png)
+
+
+
+## Project Status
+Project is: _in progress_
+
+
+## Room for Improvement
+Room for improvement:
+- Color Pallette
+- Design
+
+To do:
+- Add Animations
+- Apply Bootstrap
