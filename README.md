@@ -47,4 +47,3 @@ Room for improvement:
 
 To do:
 - Add Animations
-- Apply Bootstrap
