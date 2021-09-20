@@ -47,3 +47,4 @@ Room for improvement:
 
 To do:
 - Add Animations
+- Add more projects
