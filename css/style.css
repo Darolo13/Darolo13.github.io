@@ -372,7 +372,8 @@ header {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 0 auto;
 }
 
 .portfolio__item {
@@ -453,4 +454,8 @@ header {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.service__item {
+    display: flex;
 }
