@@ -1,4 +1,4 @@
-# _Professional Portfolio_
+# **_Professional Portfolio_**
 > Portfolio Webpage where I'll display the projects I've been working on.
 > Live demo [_here_](https://Darolo13.github.io). 
 
@@ -46,5 +46,5 @@ Room for improvement:
 - Design
 
 To do:
-- Add Animations
+- _Add Animations_
 - Add more projects
